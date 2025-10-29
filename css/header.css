@@ -1,10 +1,44 @@
 .header {
   justify-content: space-between;
   align-items: center;
-  padding: 20px 20px;
+  padding: 20px;
+  gap: 20px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.header-menu {
+  flex-wrap: wrap;
+  gap: 40px;
 }
 
 .btn-header {
+  display: inline-block;
+  padding: 16px 0px;
   color: #ffffff;
-  font-size: 1.25rem;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+@media (max-width: 800px) {
+  .header-menu {
+    gap: 20px;
+  }
+  .btn-header {
+    background-color: #111;
+    padding: 12px 16px;
+  }
+  .btn-header:hover {
+    background-color: #2e2e2e;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-menu {
+    gap: 12px;
+  }
+  .btn-header {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
 }
