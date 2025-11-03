@@ -73,3 +73,7 @@ img {
 .link:hover {
   color: var(--cor-0);
 }
+
+blockquote {
+  margin: 0px;
+}
