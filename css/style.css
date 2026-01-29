@@ -13,3 +13,7 @@
 @import url("/css/bicicletas.css");
 @import url("/css/vantagens.css");
 @import url("/css/perguntas.css");
+
+/* Bicicleta */
+@import url("/css/bicicleta/bicicletas.css");
+@import url("/css/bicicleta/seguro.css");
