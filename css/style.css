@@ -14,6 +14,13 @@
 @import url("/css/vantagens.css");
 @import url("/css/perguntas.css");
 
+/* Utilidades */
+@import url("/css/utilidade/formulario.css");
+
 /* Bicicleta */
 @import url("/css/bicicleta/bicicletas.css");
 @import url("/css/bicicleta/seguro.css");
+
+/* Contato */
+@import url("/css/contato/lojas.css");
+@import url("/css/contato/contato.css");
